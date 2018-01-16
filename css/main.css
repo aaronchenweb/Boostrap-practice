@@ -1,0 +1,139 @@
+@charset "UTF-8";
+* {
+  font-family: "Josefin Sans", sans-serif, 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-expand-md.navbar-light.fixed-top a {
+  transition: 0.5s;
+}
+nav.navbar.navbar-expand-md.navbar-light.fixed-top a:hover {
+  color: #C4B986;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+header.jumbotron {
+  background-image: url(http://wallpapers.ae/wp-content/uploads/2015/02/Soccer-Ball-HD-Widescreen-Wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: black;
+  text-shadow: -1px 0 #C4B986, 0 1px #C4B986, 1px 0 #C4B986, 0 -1px #C4B986;
+  padding: 200px 0px;
+}
+header.jumbotron .container h4 {
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+section#section_ask {
+  background-color: #1E2D4A;
+}
+section#section_ask .col-md-5.img {
+  height: 350px;
+  background-image: url("http://ichef.bbci.co.uk/onesport/cps/624/mcs/media/images/83234000/jpg/_83234326_facup.jpg");
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+section#section_ask .col-md-7 h2 {
+  color: #E2E2E2;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  margin-bottom: 10px;
+}
+
+section#section_position {
+  background-color: #009C00;
+  color: #E2E2E2;
+  padding: 0;
+}
+section#section_position .col-md-5 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Football_pitch_metric_with_Chinese_Descriptions.svg/500px-Football_pitch_metric_with_Chinese_Descriptions.svg.png);
+  height: 350px;
+  background-size: 100% 100%;
+}
+section#section_position .col-md-7 {
+  text-align: center;
+}
+section#section_position .col-md-7 .col-md-12 h2 {
+  margin-top: 20px;
+}
+section#section_position .col-md-7 .col-md-12 hr {
+  border: solid 2px #009C00;
+}
+section#section_position .col-md-7 i {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+section#section_position .col-md-7 h4 {
+  font-size: 18px;
+  color: #000D00;
+}
+section#section_position .col-md-7 p {
+  margin-top: 30px;
+}
+
+section#section_star .img {
+  background-image: url(http://a.espncdn.com/combiner/i/?img=/photo/2015/1004/soc_g_ibrahimovic_b1_1296x729.jpg&w=738&site=espnfc);
+  height: 350px;
+  background-size: cover;
+  background-position: center cneter;
+}
+section#section_star .col-md-12 {
+  padding: 20px;
+}
+section#section_star i {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+section#section_star p {
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+footer.jumbotron {
+  background-image: url(http://i.telegraph.co.uk/multimedia/archive/02362/nou-camp_2362842k.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  text-align: center;
+}
+footer.jumbotron input {
+  max-width: 350px;
+  background-color: transparent;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #E2E2E2;
+  margin-bottom: 10px;
+}
+footer.jumbotron input::placeholder {
+  color: #007bff;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
